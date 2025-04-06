@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FarmOpt - Historical Data</title>
+    <link rel="stylesheet" href="css/history.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="/static/images/logo.png" alt="FarmOpt Logo" class="logo">
+            <h1>FarmOpt</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Dashboard</a></li>
+                <li><a href="recommendations.html">Recommendations</a></li>
+                <li><a href="history.html" class="active">Historical Data</a></li>
+                <li><a href="profile.html">My Farm</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="historical-header">
+            <h2>Historical Data & Performance Analysis</h2>
+            <div class="history-controls">
+                <div class="filter-group">
+                    <label for="year-filter">Year:</label>
+                    <select id="year-filter">
+                        <option value="all">All Years</option>
+                        <option value="2025" selected>2025</option>
+                        <option value="2024">2024</option>
+                        <option value="2023">2023</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="crop-filter">Crop Type:</label>
+                    <select id="crop-filter">
+                        <option value="all" selected>All Crops</option>
+                        <option value="corn">Corn</option>
+                        <option value="soybeans">Soybeans</option>
+                        <option value="wheat">Wheat</option>
+                    </select>
+                </div>
+                <button id="apply-filters" class="filter-btn">Apply Filters</button>
+            </div>
+        </section>
+
+        <section class="historical-overview">
+            <div class="stats-cards">
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <div class="stat-details">
+                        <h3>Average Yield Accuracy</h3>
+                        <div class="stat-value">92.7%</div>
+                        <div class="stat-change positive">
+                            <i class="fas fa-arrow-up"></i> 3.5% from last year
+                        </div>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <div class="stat-details">
+                        <h3>Sustainability Score</h3>
+                        <div class="stat-value">8.4/10</div>
+                        <div class="stat-change positive">
+                            <i class="fas fa-arrow-up"></i> 0.8 from last year
+                        </div>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-dollar-sign"></i>
+                    </div>
+                    <div class="stat-details">
+                        <h3>Avg. Revenue per Acre</h3>
+                        <div class="stat-value">$1,245</div>
+                        <div class="stat-change positive">
+                            <i class="fas fa-arrow-up"></i> 5.2% from last year
+                        </div>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="stat-details">
+                        <h3>Recommendations Applied</h3>
+                        <div class="stat-value">78%</div>
+                        <div class="stat-change positive">
+                            <i class="fas fa-arrow-up"></i> 12% from last year
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="historical-charts">
+            <div class="chart-row">
+                <div class="chart-container">
+                    <h3>Yield Comparison: Predicted vs. Actual</h3>
+                    <canvas id="yield-comparison-chart"></canvas>
+                </div>
+                <div class="chart-container">
+                    <h3>Sustainability Metrics Over Time</h3>
+                    <canvas id="sustainability-chart"></canvas>
+                </div>
+            </div>
+            <div class="chart-row">
+                <div class="chart-container">
+                    <h3>Revenue vs. Cost per Acre</h3>
+                    <canvas id="financial-chart"></canvas>
+                </div>
+                <div class="chart-container">
+                    <h3>Weather Impact Analysis</h3>
+                    <canvas id="weather-impact-chart"></canvas>
+                </div>
+            </div>
+        </section>
+
+        <section class="historical-records">
+            <h3>Detailed Records</h3>
+            <div class="table-container">
+                <table id="history-table">
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Season</th>
+                            <th>Crop</th>
+                            <th>Soil Type</th>
+                            <th>Predicted Yield</th>
+                            <th>Actual Yield</th>
+                            <th>Revenue</th>
+                            <th>Accuracy</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Apr 15, 2025</td>
+                            <td>Spring</td>
+                            <td>Corn</td>
+                            <td>Loamy</td>
+                            <td>188 bu/acre</td>
+                            <td>195 bu/acre</td>
+                            <td>$1,140/acre</td>
+                            <td class="accuracy high">96.4%</td>
+                            <td><button class="action-btn"><i class="fas fa-eye"></i></button></td>
+                        </tr>
+                        <tr>
+                            <td>Mar 20, 2025</td>
+                            <td>Spring</td>
+                            <td>Soybeans</td>
+                            <td>Loamy</td>
+                            <td>52 bu/acre</td>
+                            <td>48 bu/acre</td>
+                            <td>$633/acre</td>
+                            <td class="accuracy medium">92.3%</td>
+                            <td><button class="action-btn"><i class="fas fa-eye"></i></button></td>
+                        </tr>
+                        <tr>
+                            <td>Oct 10, 2024</td>
+                            <td>Fall</td>
+                            <td>Wheat</td>
+                            <td>Silty</td>
+                            <td>68 bu/acre</td>
+                            <td>65 bu/acre</td>
+                            <td>$481/acre</td>
+                            <td class="accuracy high">95.6%</td>
+                            <td><button class="action-btn"><i class="fas fa-eye"></i></button></td>
+                        </tr>
+                        <tr>
+                            <td>May 5, 2024</td>
+                            <td>Spring</td>
+                            <td>Corn</td>
+                            <td>Loamy</td>
+                            <td>182 bu/acre</td>
+                            <td>163 bu/acre</td>
+                            <td>$880/acre</td>
+                            <td class="accuracy medium">89.6%</td>
+                            <td><button class="action-btn"><i class="fas fa-eye"></i></button></td>
+                        </tr>
+                        <tr>
+                            <td>Apr 2, 2024</td>
+                            <td>Spring</td>
+                            <td>Soybeans</td>
+                            <td>Loamy</td>
+                            <td>47 bu/acre</td>
+                            <td>49 bu/acre</td>
+                            <td>$647/acre</td>
+                            <td class="accuracy high">95.9%</td>
+                            <td><button class="action-btn"><i class="fas fa-eye"></i></button></td>
+                        </tr>
+                        <tr>
+                            <td>Sep 15, 2023</td>
+                            <td>Fall</td>
+                            <td>Wheat</td>
+                            <td>Sandy</td>
+                            <td>60 bu/acre</td>
+                            <td>51 bu/acre</td>
+                            <td>$378/acre</td>
+                            <td class="accuracy low">85.0%</td>
+                            <td><button class="action-btn"><i class="fas fa-eye"></i></button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="pagination">
+                <button class="pagination-btn"><i class="fas fa-chevron-left"></i></button>
+                <button class="pagination-btn active">1</button>
+                <button class="pagination-btn">2</button>
+                <button class="pagination-btn">3</button>
+                <button class="pagination-btn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </section>
+
+        <section class="insights-section">
+            <h3>AI-Generated Insights</h3>
+            <div class="insights-container">
+                <div class="insight-card">
+                    <div class="insight-icon"><i class="fas fa-lightbulb"></i></div>
+                    <div class="insight-content">
+                        <h4>Yield Optimization</h4>
+                        <p>Your corn yields consistently exceed predictions when planted after soybeans. Consider expanding this rotation pattern across more fields.</p>
+                    </div>
+                </div>
+                <div class="insight-card">
+                    <div class="insight-icon"><i class="fas fa-cloud-rain"></i></div>
+                    <div class="insight-content">
+                        <h4>Weather Resilience</h4>
+                        <p>Your wheat crops showed 15% less yield variability during drought conditions compared to regional averages. Your water management practices are paying off.</p>
+                    </div>
+                </div>
+                <div class="insight-card">
+                    <div class="insight-icon"><i class="fas fa-coins"></i></div>
+                    <div class="insight-content">
+                        <h4>Financial Pattern</h4>
+                        <p>Early planting of soybeans (before April 15) has resulted in 8% higher profit margins over the past two seasons.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>FarmOpt</h3>
+                <p>AI-powered farming optimization for sustainable agriculture</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Email: support@farmopt.com</p>
+                <p>Phone: (555) 123-4567</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 FarmOpt. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="js/history.js"></script>
+</body>
+</html>

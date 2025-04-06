@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FarmOpt - Smart Farming Recommendations</title>
+    <link rel="stylesheet" href="css/recommendation.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="/static/images/logo.png" alt="FarmOpt Logo" class="logo">
+            <h1>FarmOpt</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html"><i class="fas fa-home"></i> Dashboard</a></li>
+                <li><a href="recommendations.html" class="active"><i class="fas fa-lightbulb"></i> Recommendations</a></li>
+                <li><a href="history.html"><i class="fas fa-history"></i> Historical Data</a></li>
+                <li><a href="profile.html"><i class="fas fa-farm"></i> My Farm</a></li>
+            </ul>
+        </nav>
+        <div class="user-actions">
+            <div class="weather-widget">
+                <i class="fas fa-cloud-sun"></i>
+                <span>28°C | Partly Cloudy</span>
+            </div>
+            <button class="notification-btn">
+                <i class="fas fa-bell"></i>
+                <span class="notification-badge">3</span>
+            </button>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="page-header">
+            <h2>Smart Farming Recommendations</h2>
+            <p class="subtitle">AI-powered insights for optimal farming decisions</p>
+        </div>
+
+        <div class="recommendations-container">
+            <!-- Enhanced Filters Section -->
+            <div class="filters-section">
+                <h3>Customize Recommendations</h3>
+                <div class="filters">
+                    <div class="filter-group">
+                        <label for="soil-type">Soil Type</label>
+                        <select id="soil-type">
+                            <option value="">Select Soil Type</option>
+                            <option value="loamy">Loamy Soil</option>
+                            <option value="sandy">Sandy Soil</option>
+                            <option value="clay">Clay Soil</option>
+                            <option value="silt">Silty Soil</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="season">Growing Season</label>
+                        <select id="season">
+                            <option value="">Select Season</option>
+                            <option value="spring">Spring</option>
+                            <option value="summer">Summer</option>
+                            <option value="fall">Fall</option>
+                            <option value="winter">Winter</option>
+                        </select>
+                    </div>
+                    <button class="apply-filters-btn">
+                        <i class="fas fa-filter"></i> Apply Filters
+                    </button>
+                </div>
+            </div>
+
+            <!-- Recommendations Dashboard -->
+            <div class="recommendations-dashboard">
+                <!-- Quick Stats -->
+                <div class="stats-row">
+                    <div class="stat-card">
+                        <i class="fas fa-seedling"></i>
+                        <h4>Optimal Crops</h4>
+                        <p class="stat-value">12</p>
+                        <p class="stat-desc">recommended for your soil</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-tint"></i>
+                        <h4>Water Savings</h4>
+                        <p class="stat-value">25%</p>
+                        <p class="stat-desc">potential optimization</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-chart-line"></i>
+                        <h4>Yield Increase</h4>
+                        <p class="stat-value">30%</p>
+                        <p class="stat-desc">projected improvement</p>
+                    </div>
+                </div>
+
+                <!-- Recommendations List -->
+                <div class="recommendations-grid">
+                    <div class="recommendation-card">
+                        <div class="card-header">
+                            <i class="fas fa-leaf"></i>
+                            <h4>Crop Selection</h4>
+                        </div>
+                        <div class="card-content">
+                            <h5>Recommended Crops</h5>
+                            <ul class="crop-list">
+                                <li><span class="crop-name">Wheat</span> <span class="confidence">95%</span></li>
+                                <li><span class="crop-name">Soybeans</span> <span class="confidence">88%</span></li>
+                                <li><span class="crop-name">Corn</span> <span class="confidence">82%</span></li>
+                            </ul>
+                            <button class="view-details-btn">View Details</button>
+                        </div>
+                    </div>
+
+                    <div class="recommendation-card">
+                        <div class="card-header">
+                            <i class="fas fa-water"></i>
+                            <h4>Irrigation Plan</h4>
+                        </div>
+                        <div class="card-content">
+                            <h5>Weekly Schedule</h5>
+                            <div class="irrigation-schedule">
+                                <div class="schedule-item">
+                                    <span class="day">Mon/Thu</span>
+                                    <span class="amount">2.5L/m²</span>
+                                </div>
+                                <div class="schedule-item">
+                                    <span class="day">Wed/Sat</span>
+                                    <span class="amount">1.8L/m²</span>
+                                </div>
+                            </div>
+                            <button class="view-details-btn">Adjust Schedule</button>
+                        </div>
+                    </div>
+
+                    <div class="recommendation-card">
+                        <div class="card-header">
+                            <i class="fas fa-flask"></i>
+                            <h4>Soil Treatment</h4>
+                        </div>
+                        <div class="card-content">
+                            <h5>Recommended Actions</h5>
+                            <ul class="action-list">
+                                <li>Add nitrogen-rich fertilizer</li>
+                                <li>Maintain pH level at 6.5-7.0</li>
+                                <li>Increase organic matter content</li>
+                            </ul>
+                            <button class="view-details-btn">See Analysis</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>FarmOpt</h3>
+                <p>AI-powered farming optimization for sustainable agriculture</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Email: support@farmopt.com</p>
+                <p>Phone: (555) 123-4567</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 FarmOpt. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script type="module" src="js/services/dataService.js"></script>
+    <script type="module" src="js/recommendations.js"></script>
+    <script type="module" src="js/connection-check.js"></script>
+</body>
+</html>

@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Market Analysis Dashboard</title>
+    
+    <!-- CSS Links -->
+    <link rel="stylesheet" type="text/css" href="css/market.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+        <div id="loading-indicator" class="loading-spinner">Loading...</div>
+        <nav class="sidebar">
+            <div class="sidebar-header">
+                <img src="img/logo.png" alt="Farm Advisor Logo" class="logo">
+                <h1>Farm Opt</h1>
+            </div>
+            <ul class="nav-links">
+                <li class="active"><a href="index.html"><i class="fas fa-home"></i> Dashboard</a></li>
+                <li><a href="market.html"><i class="fas fa-chart-line"></i> Market Trends</a></li>
+                <li><a href="recommendations.html"><i class="fas fa-lightbulb"></i> Recommendations</a></li>
+                <li><a href="history.html"><i class="fas fa-history"></i> History</a></li>
+            </ul>
+        </nav>
+    <main class="market-analysis-container">
+        <!-- Market Overview Section -->
+        <section class="market-overview">
+            <div class="overview-card">
+                <div class="overview-header">
+                    <div class="overview-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 class="overview-title">Market Performance</h3>
+                </div>
+                <div class="overview-content">
+                    <div class="insight-value">+8.5%</div>
+                    <div class="insight-trend trend-up">
+                        <i class="fas fa-arrow-up"></i>
+                        <span>2.3% from last month</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="overview-card">
+                <div class="overview-header">
+                    <div class="overview-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3 class="overview-title">Consumer Confidence</h3>
+                </div>
+                <div class="overview-content">
+                    <div class="insight-value">72.4</div>
+                    <div class="insight-trend trend-up">
+                        <i class="fas fa-arrow-up"></i>
+                        <span>5.2 points increase</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="overview-card">
+                <div class="overview-header">
+                    <div class="overview-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3 class="overview-title">Global Market Share</h3>
+                </div>
+                <div class="overview-content">
+                    <div class="insight-value">23.8%</div>
+                    <div class="insight-trend trend-down">
+                        <i class="fas fa-arrow-down"></i>
+                        <span>1.2% decrease</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Market Trends Chart -->
+        <section class="chart-section">
+            <div class="chart-header">
+                <h2>Market Trends Analysis</h2>
+                <div class="chart-filters">
+                    <button class="chart-filter-btn active">1M</button>
+                    <button class="chart-filter-btn">3M</button>
+                    <button class="chart-filter-btn">6M</button>
+                    <button class="chart-filter-btn">1Y</button>
+                </div>
+            </div>
+            <canvas id="marketTrendsChart"></canvas>
+        </section>
+
+        <!-- Chart Container Grid -->
+        <section class="chart-container-grid">
+            <!-- Market Trends Chart -->
+            <div class="chart-card">
+                <div class="chart-header">
+                    <h3>Price Trends</h3>
+                    <div class="chart-filters">
+                        <button class="chart-filter-btn active" data-period="1M">1M</button>
+                        <button class="chart-filter-btn" data-period="3M">3M</button>
+                        <button class="chart-filter-btn" data-period="6M">6M</button>
+                        <button class="chart-filter-btn" data-period="1Y">1Y</button>
+                    </div>
+                </div>
+                <div class="chart-body">
+                    <canvas id="priceTrendsChart"></canvas>
+                </div>
+            </div>
+
+            <!-- Volume Analysis Chart -->
+            <div class="chart-card">
+                <div class="chart-header">
+                    <h3>Trading Volume</h3>
+                </div>
+                <div class="chart-body">
+                    <canvas id="volumeAnalysisChart"></canvas>
+                </div>
+            </div>
+
+            <!-- Supply-Demand Chart -->
+            <div class="chart-card">
+                <div class="chart-header">
+                    <h3>Supply vs Demand</h3>
+                </div>
+                <div class="chart-body">
+                    <canvas id="supplyDemandChart"></canvas>
+                </div>
+            </div>
+
+            <!-- Market Distribution Chart -->
+            <div class="chart-card">
+                <div class="chart-header">
+                    <h3>Market Distribution</h3>
+                </div>
+                <div class="chart-body">
+                    <canvas id="marketDistributionChart"></canvas>
+                </div>
+            </div>
+        </section>
+
+        <!-- Market Insights -->
+        <section class="market-insights">
+            <div class="insight-card">
+                <div class="insight-header">
+                    <div class="insight-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Key Insights</h3>
+                </div>
+                <ul class="insight-list">
+                    <li>Consumer spending increased by 12%</li>
+                    <li>Digital transformation driving growth</li>
+                    <li>Emerging markets show strong potential</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Market Data Analysis Section -->
+        <section class="market-data-analysis">
+            <div class="section-header">
+                <h2>Market Intelligence Dashboard</h2>
+                <div class="filter-controls">
+                    <select id="productFilter" class="filter-select">
+                        <option value="">All Products</option>
+                        <option value="Wheat">Wheat</option>
+                        <option value="Corn">Corn</option>
+                        <option value="Soybean">Soybean</option>
+                        <option value="Rice">Rice</option>
+                    </select>
+                    <div class="date-range">
+                        <input type="date" id="startDate" class="date-input">
+                        <span>to</span>
+                        <input type="date" id="endDate" class="date-input">
+                    </div>
+                    <button id="refreshMarketData" class="refresh-btn">
+                        <i class="fas fa-sync-alt"></i> Refresh
+                    </button>
+                </div>
+            </div>
+
+            <div class="market-controls">
+                <div class="date-range-picker">
+                    <input type="date" id="startDate">
+                    <input type="date" id="endDate">
+                </div>
+                <div class="action-buttons">
+                    <button id="exportReport" class="btn btn-primary">
+                        <i class="fas fa-file-export"></i> Export Report
+                    </button>
+                    <button id="refreshMarketData" class="btn btn-secondary">
+                        <i class="fas fa-sync"></i> Refresh Data
+                    </button>
+                </div>
+            </div>
+
+            <div class="market-data-grid">
+                <div class="data-table-container">
+                    <table class="market-data-table">
+                        <thead>
+                            <tr>
+                                <th>Market ID</th>
+                                <th>Product</th>
+                                <th>Price/ton</th>
+                                <th>Demand</th>
+                                <th>Supply</th>
+                                <th>Competitor Price</th>
+                                <th>Economic Indicator</th>
+                                <th>Weather Impact</th>
+                                <th>Seasonal Factor</th>
+                                <th>Consumer Trend</th>
+                            </tr>
+                        </thead>
+                        <tbody id="marketDataBody">
+                            <!-- Will be populated by JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Scripts at the bottom of body -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="js/market.js"></script>
+</body>
+</html>

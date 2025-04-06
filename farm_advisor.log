@@ -1,0 +1,611 @@
+2025-04-05 21:49:47,502 - __main__ - WARNING - Dataset not found at d:\Accenture Hackathon\backend\data\farming_dataset.xlsx
+2025-04-05 21:49:47,503 - __main__ - INFO - Creating sample dataset
+2025-04-05 21:49:47,704 - __main__ - INFO - Model trained successfully
+2025-04-05 21:49:47,708 - __main__ - INFO - Starting Flask server...
+2025-04-05 21:49:47,708 - __main__ - INFO - Dataset path: d:\Accenture Hackathon\backend\data\farming_dataset.xlsx
+2025-04-05 21:49:47,709 - __main__ - INFO - Weather API Key: cb669b0e7977e5085210c5309da7b642
+2025-04-05 21:49:47,709 - __main__ - INFO - Weather API URL: http://api.openweathermap.org/data/2.5/weather
+2025-04-05 21:49:47,760 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.11.153.38:5000
+2025-04-05 21:49:47,761 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-05 21:49:47,764 - werkzeug - INFO -  * Restarting with stat
+2025-04-05 21:49:50,904 - __main__ - WARNING - Dataset not found at d:\Accenture Hackathon\backend\data\farming_dataset.xlsx
+2025-04-05 21:49:50,905 - __main__ - INFO - Creating sample dataset
+2025-04-05 21:49:51,118 - __main__ - INFO - Model trained successfully
+2025-04-05 21:49:51,122 - __main__ - INFO - Starting Flask server...
+2025-04-05 21:49:51,122 - __main__ - INFO - Dataset path: d:\Accenture Hackathon\backend\data\farming_dataset.xlsx
+2025-04-05 21:49:51,122 - __main__ - INFO - Weather API Key: cb669b0e7977e5085210c5309da7b642
+2025-04-05 21:49:51,123 - __main__ - INFO - Weather API URL: http://api.openweathermap.org/data/2.5/weather
+2025-04-05 21:49:51,137 - werkzeug - WARNING -  * Debugger is active!
+2025-04-05 21:49:51,141 - werkzeug - INFO -  * Debugger PIN: 191-349-390
+2025-04-05 21:53:46,445 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 21:53:46] "[33mGET /api/data/farmer HTTP/1.1[0m" 404 -
+2025-04-05 21:53:46,690 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 21:53:46] "[33mGET /api/data/market HTTP/1.1[0m" 404 -
+2025-04-05 21:56:33,779 - werkzeug - INFO -  * Detected change in 'd:\\Accenture Hackathon\\backend\\server.py', reloading
+2025-04-05 21:56:34,228 - werkzeug - INFO -  * Restarting with stat
+2025-04-05 21:56:38,107 - __main__ - WARNING - Dataset not found at d:\Accenture Hackathon\backend\data\farming_dataset.xlsx
+2025-04-05 21:56:38,107 - __main__ - INFO - Creating sample dataset
+2025-04-05 21:56:38,269 - __main__ - INFO - Model trained successfully
+2025-04-05 21:56:38,653 - __main__ - ERROR - Error loading data: [Errno 2] No such file or directory: 'd:\\Accenture Hackathon\\backend\\data\\farm_data.xlsx'
+2025-04-05 21:59:28,805 - __main__ - WARNING - Dataset not found at d:\Accenture Hackathon\backend\data\farming_dataset.xlsx
+2025-04-05 21:59:28,805 - __main__ - INFO - Creating sample dataset
+2025-04-05 21:59:28,980 - __main__ - INFO - Model trained successfully
+2025-04-05 21:59:29,204 - __main__ - ERROR - Error loading data: File is not a zip file
+2025-04-05 21:59:29,204 - __main__ - INFO - Creating sample farm data
+2025-04-05 21:59:29,208 - __main__ - INFO - Creating sample market data
+2025-04-05 21:59:29,214 - __main__ - INFO - Starting Flask server...
+2025-04-05 21:59:29,214 - __main__ - INFO - Dataset path: d:\Accenture Hackathon\backend\data\farming_dataset.xlsx
+2025-04-05 21:59:29,214 - __main__ - INFO - Weather API Key: cb669b0e7977e5085210c5309da7b642
+2025-04-05 21:59:29,215 - __main__ - INFO - Weather API URL: http://api.openweathermap.org/data/2.5/weather
+2025-04-05 21:59:29,312 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.11.153.38:5000
+2025-04-05 21:59:29,313 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-05 21:59:29,315 - werkzeug - INFO -  * Restarting with stat
+2025-04-05 21:59:32,003 - __main__ - WARNING - Dataset not found at d:\Accenture Hackathon\backend\data\farming_dataset.xlsx
+2025-04-05 21:59:32,004 - __main__ - INFO - Creating sample dataset
+2025-04-05 21:59:32,182 - __main__ - INFO - Model trained successfully
+2025-04-05 21:59:32,408 - __main__ - ERROR - Error loading data: File is not a zip file
+2025-04-05 21:59:32,409 - __main__ - INFO - Creating sample farm data
+2025-04-05 21:59:32,410 - __main__ - INFO - Creating sample market data
+2025-04-05 21:59:32,415 - __main__ - INFO - Starting Flask server...
+2025-04-05 21:59:32,415 - __main__ - INFO - Dataset path: d:\Accenture Hackathon\backend\data\farming_dataset.xlsx
+2025-04-05 21:59:32,415 - __main__ - INFO - Weather API Key: cb669b0e7977e5085210c5309da7b642
+2025-04-05 21:59:32,416 - __main__ - INFO - Weather API URL: http://api.openweathermap.org/data/2.5/weather
+2025-04-05 21:59:32,501 - werkzeug - WARNING -  * Debugger is active!
+2025-04-05 21:59:32,506 - werkzeug - INFO -  * Debugger PIN: 191-349-390
+2025-04-05 22:00:37,811 - werkzeug - INFO - 10.11.153.38 - - [05/Apr/2025 22:00:37] "GET / HTTP/1.1" 200 -
+2025-04-05 22:00:37,863 - werkzeug - INFO - 10.11.153.38 - - [05/Apr/2025 22:00:37] "GET /css/styles.css HTTP/1.1" 200 -
+2025-04-05 22:00:37,877 - werkzeug - INFO - 10.11.153.38 - - [05/Apr/2025 22:00:37] "GET /js/main.js HTTP/1.1" 200 -
+2025-04-05 22:00:38,304 - werkzeug - INFO - 10.11.153.38 - - [05/Apr/2025 22:00:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-05 22:03:37,422 - werkzeug - INFO - 10.11.153.38 - - [05/Apr/2025 22:03:37] "[36mGET / HTTP/1.1[0m" 304 -
+2025-04-05 22:03:37,479 - werkzeug - INFO - 10.11.153.38 - - [05/Apr/2025 22:03:37] "[36mGET /css/styles.css HTTP/1.1[0m" 304 -
+2025-04-05 22:03:37,485 - werkzeug - INFO - 10.11.153.38 - - [05/Apr/2025 22:03:37] "[36mGET /js/main.js HTTP/1.1[0m" 304 -
+2025-04-05 22:17:20,441 - werkzeug - INFO -  * Detected change in 'd:\\Accenture Hackathon\\backend\\server.py', reloading
+2025-04-05 22:17:20,750 - werkzeug - INFO -  * Restarting with stat
+2025-04-05 22:17:23,779 - __main__ - WARNING - Dataset not found at d:\Accenture Hackathon\backend\data\farming_dataset.xlsx
+2025-04-05 22:17:23,779 - __main__ - INFO - Creating sample dataset
+2025-04-05 22:17:23,966 - __main__ - INFO - Model trained successfully
+2025-04-05 22:17:24,219 - __main__ - ERROR - Error loading data: File is not a zip file
+2025-04-05 22:17:24,219 - __main__ - INFO - Creating sample farm data
+2025-04-05 22:17:24,220 - __main__ - INFO - Creating sample market data
+2025-04-05 22:17:24,223 - __main__ - INFO - Starting Flask server...
+2025-04-05 22:17:24,224 - __main__ - INFO - Dataset path: d:\Accenture Hackathon\backend\data\farming_dataset.xlsx
+2025-04-05 22:17:24,224 - __main__ - INFO - Weather API Key: cb669b0e7977e5085210c5309da7b642
+2025-04-05 22:17:24,224 - __main__ - INFO - Weather API URL: http://api.openweathermap.org/data/2.5/weather
+2025-04-05 22:17:24,291 - werkzeug - WARNING -  * Debugger is active!
+2025-04-05 22:17:24,296 - werkzeug - INFO -  * Debugger PIN: 191-349-390
+2025-04-05 22:17:38,988 - werkzeug - INFO -  * Detected change in 'd:\\Accenture Hackathon\\backend\\server.py', reloading
+2025-04-05 22:17:39,312 - werkzeug - INFO -  * Restarting with stat
+2025-04-05 22:17:42,044 - __main__ - WARNING - Dataset not found at d:\Accenture Hackathon\backend\data\farming_dataset.xlsx
+2025-04-05 22:17:42,045 - __main__ - INFO - Creating sample dataset
+2025-04-05 22:17:42,230 - __main__ - INFO - Model trained successfully
+2025-04-05 22:17:42,469 - __main__ - ERROR - Error loading data: File is not a zip file
+2025-04-05 22:17:42,470 - __main__ - INFO - Creating sample farm data
+2025-04-05 22:17:42,471 - __main__ - INFO - Creating sample market data
+2025-04-05 22:17:42,478 - __main__ - INFO - Starting Flask server...
+2025-04-05 22:17:42,479 - __main__ - INFO - Dataset path: d:\Accenture Hackathon\backend\data\farming_dataset.xlsx
+2025-04-05 22:17:42,479 - __main__ - INFO - Weather API Key: cb669b0e7977e5085210c5309da7b642
+2025-04-05 22:17:42,479 - __main__ - INFO - Weather API URL: http://api.openweathermap.org/data/2.5/weather
+2025-04-05 22:17:42,561 - werkzeug - WARNING -  * Debugger is active!
+2025-04-05 22:17:42,566 - werkzeug - INFO -  * Debugger PIN: 191-349-390
+2025-04-05 22:21:50,979 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 22:21:50] "GET /api/farm-data HTTP/1.1" 200 -
+2025-04-05 22:26:24,899 - werkzeug - INFO -  * Detected change in 'd:\\Accenture Hackathon\\backend\\server.py', reloading
+2025-04-05 22:26:25,208 - werkzeug - INFO -  * Restarting with stat
+2025-04-05 22:26:28,163 - __main__ - WARNING - Dataset not found at d:\Accenture Hackathon\backend\data\farming_dataset.xlsx
+2025-04-05 22:26:28,164 - __main__ - INFO - Creating sample dataset
+2025-04-05 22:26:28,332 - __main__ - INFO - Model trained successfully
+2025-04-05 22:26:28,564 - __main__ - ERROR - Error loading data: File is not a zip file
+2025-04-05 22:26:28,564 - __main__ - INFO - Creating sample farm data
+2025-04-05 22:26:28,566 - __main__ - INFO - Creating sample market data
+2025-04-05 22:26:28,572 - __main__ - INFO - Starting Flask server...
+2025-04-05 22:26:28,572 - __main__ - INFO - Dataset path: d:\Accenture Hackathon\backend\data\farming_dataset.xlsx
+2025-04-05 22:26:28,572 - __main__ - INFO - Weather API Key: cb669b0e7977e5085210c5309da7b642
+2025-04-05 22:26:28,573 - __main__ - INFO - Weather API URL: http://api.openweathermap.org/data/2.5/weather
+2025-04-05 22:26:28,641 - werkzeug - WARNING -  * Debugger is active!
+2025-04-05 22:26:28,645 - werkzeug - INFO -  * Debugger PIN: 191-349-390
+2025-04-05 22:28:16,683 - werkzeug - INFO -  * Detected change in 'd:\\Accenture Hackathon\\backend\\server.py', reloading
+2025-04-05 22:28:17,004 - werkzeug - INFO -  * Restarting with stat
+2025-04-05 22:28:19,851 - __main__ - WARNING - Dataset not found at d:\Accenture Hackathon\backend\data\farming_dataset.xlsx
+2025-04-05 22:28:19,851 - __main__ - INFO - Creating sample dataset
+2025-04-05 22:28:20,014 - __main__ - INFO - Model trained successfully
+2025-04-05 22:28:20,255 - __main__ - ERROR - Error loading data: File is not a zip file
+2025-04-05 22:28:20,255 - __main__ - INFO - Creating sample farm data
+2025-04-05 22:28:20,257 - __main__ - INFO - Creating sample market data
+2025-04-05 22:28:20,263 - __main__ - INFO - Starting Flask server...
+2025-04-05 22:28:20,263 - __main__ - INFO - Dataset path: d:\Accenture Hackathon\backend\data\farming_dataset.xlsx
+2025-04-05 22:28:20,263 - __main__ - INFO - Weather API Key: cb669b0e7977e5085210c5309da7b642
+2025-04-05 22:28:20,263 - __main__ - INFO - Weather API URL: http://api.openweathermap.org/data/2.5/weather
+2025-04-05 22:28:20,339 - werkzeug - WARNING -  * Debugger is active!
+2025-04-05 22:28:20,343 - werkzeug - INFO -  * Debugger PIN: 191-349-390
+2025-04-05 22:28:38,798 - werkzeug - INFO -  * Detected change in 'd:\\Accenture Hackathon\\backend\\server.py', reloading
+2025-04-05 22:28:39,068 - werkzeug - INFO -  * Restarting with stat
+2025-04-05 22:28:41,921 - __main__ - WARNING - Dataset not found at d:\Accenture Hackathon\backend\data\farming_dataset.xlsx
+2025-04-05 22:28:41,921 - __main__ - INFO - Creating sample dataset
+2025-04-05 22:28:42,124 - __main__ - INFO - Model trained successfully
+2025-04-05 22:28:42,368 - __main__ - ERROR - Error loading data: File is not a zip file
+2025-04-05 22:28:42,368 - __main__ - INFO - Creating sample farm data
+2025-04-05 22:28:42,370 - __main__ - INFO - Creating sample market data
+2025-04-05 22:28:42,377 - __main__ - INFO - Starting Flask server...
+2025-04-05 22:28:42,378 - __main__ - INFO - Dataset path: d:\Accenture Hackathon\backend\data\farming_dataset.xlsx
+2025-04-05 22:28:42,378 - __main__ - INFO - Weather API Key: cb669b0e7977e5085210c5309da7b642
+2025-04-05 22:28:42,378 - __main__ - INFO - Weather API URL: http://api.openweathermap.org/data/2.5/weather
+2025-04-05 22:28:42,449 - werkzeug - WARNING -  * Debugger is active!
+2025-04-05 22:28:42,453 - werkzeug - INFO -  * Debugger PIN: 191-349-390
+2025-04-05 22:28:57,015 - werkzeug - INFO -  * Detected change in 'd:\\Accenture Hackathon\\backend\\server.py', reloading
+2025-04-05 22:28:57,322 - werkzeug - INFO -  * Restarting with stat
+2025-04-05 22:55:53,802 - __main__ - WARNING - Dataset not found at d:\Accenture Hackathon\backend\data\farming_dataset.xlsx
+2025-04-05 22:55:53,803 - __main__ - INFO - Creating sample dataset
+2025-04-05 22:55:53,959 - __main__ - INFO - Model trained successfully
+2025-04-05 22:55:54,211 - __main__ - ERROR - Error loading data: File is not a zip file
+2025-04-05 22:55:54,211 - __main__ - INFO - Creating sample farm data
+2025-04-05 22:55:54,213 - __main__ - INFO - Creating sample market data
+2025-04-05 22:55:54,219 - __main__ - INFO - Starting Flask server...
+2025-04-05 22:55:54,219 - __main__ - INFO - Dataset path: d:\Accenture Hackathon\backend\data\farming_dataset.xlsx
+2025-04-05 22:55:54,219 - __main__ - INFO - Weather API Key: cb669b0e7977e5085210c5309da7b642
+2025-04-05 22:55:54,220 - __main__ - INFO - Weather API URL: http://api.openweathermap.org/data/2.5/weather
+2025-04-05 22:55:54,308 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.11.153.38:5000
+2025-04-05 22:55:54,309 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-05 22:55:54,311 - werkzeug - INFO -  * Restarting with stat
+2025-04-05 22:55:57,291 - __main__ - WARNING - Dataset not found at d:\Accenture Hackathon\backend\data\farming_dataset.xlsx
+2025-04-05 22:55:57,292 - __main__ - INFO - Creating sample dataset
+2025-04-05 22:55:57,449 - __main__ - INFO - Model trained successfully
+2025-04-05 22:55:57,689 - __main__ - ERROR - Error loading data: File is not a zip file
+2025-04-05 22:55:57,689 - __main__ - INFO - Creating sample farm data
+2025-04-05 22:55:57,690 - __main__ - INFO - Creating sample market data
+2025-04-05 22:55:57,697 - __main__ - INFO - Starting Flask server...
+2025-04-05 22:55:57,697 - __main__ - INFO - Dataset path: d:\Accenture Hackathon\backend\data\farming_dataset.xlsx
+2025-04-05 22:55:57,697 - __main__ - INFO - Weather API Key: cb669b0e7977e5085210c5309da7b642
+2025-04-05 22:55:57,698 - __main__ - INFO - Weather API URL: http://api.openweathermap.org/data/2.5/weather
+2025-04-05 22:55:57,768 - werkzeug - WARNING -  * Debugger is active!
+2025-04-05 22:55:57,771 - werkzeug - INFO -  * Debugger PIN: 191-349-390
+2025-04-05 22:57:31,016 - werkzeug - INFO -  * Detected change in 'd:\\Accenture Hackathon\\backend\\__init__.py', reloading
+2025-04-05 22:57:31,400 - werkzeug - INFO -  * Restarting with stat
+2025-04-05 22:57:34,378 - __main__ - WARNING - Dataset not found at d:\Accenture Hackathon\backend\data\farming_dataset.xlsx
+2025-04-05 22:57:34,378 - __main__ - INFO - Creating sample dataset
+2025-04-05 22:57:34,558 - __main__ - INFO - Model trained successfully
+2025-04-05 22:57:34,823 - __main__ - ERROR - Error loading data: File is not a zip file
+2025-04-05 22:57:34,823 - __main__ - INFO - Creating sample farm data
+2025-04-05 22:57:34,824 - __main__ - INFO - Creating sample market data
+2025-04-05 22:57:34,832 - __main__ - INFO - Starting Flask server...
+2025-04-05 22:57:34,832 - __main__ - INFO - Dataset path: d:\Accenture Hackathon\backend\data\farming_dataset.xlsx
+2025-04-05 22:57:34,832 - __main__ - INFO - Weather API Key: cb669b0e7977e5085210c5309da7b642
+2025-04-05 22:57:34,833 - __main__ - INFO - Weather API URL: http://api.openweathermap.org/data/2.5/weather
+2025-04-05 22:57:34,915 - werkzeug - WARNING -  * Debugger is active!
+2025-04-05 22:57:34,919 - werkzeug - INFO -  * Debugger PIN: 191-349-390
+2025-04-05 22:57:36,510 - werkzeug - INFO -  * Detected change in 'd:\\Accenture Hackathon\\backend\\__init__.py', reloading
+2025-04-05 22:57:36,830 - werkzeug - INFO -  * Restarting with stat
+2025-04-05 22:57:39,711 - __main__ - WARNING - Dataset not found at d:\Accenture Hackathon\backend\data\farming_dataset.xlsx
+2025-04-05 22:57:39,711 - __main__ - INFO - Creating sample dataset
+2025-04-05 22:57:39,893 - __main__ - INFO - Model trained successfully
+2025-04-05 22:57:40,139 - __main__ - ERROR - Error loading data: File is not a zip file
+2025-04-05 22:57:40,140 - __main__ - INFO - Creating sample farm data
+2025-04-05 22:57:40,141 - __main__ - INFO - Creating sample market data
+2025-04-05 22:57:40,146 - __main__ - INFO - Starting Flask server...
+2025-04-05 22:57:40,146 - __main__ - INFO - Dataset path: d:\Accenture Hackathon\backend\data\farming_dataset.xlsx
+2025-04-05 22:57:40,147 - __main__ - INFO - Weather API Key: cb669b0e7977e5085210c5309da7b642
+2025-04-05 22:57:40,147 - __main__ - INFO - Weather API URL: http://api.openweathermap.org/data/2.5/weather
+2025-04-05 22:57:40,216 - werkzeug - WARNING -  * Debugger is active!
+2025-04-05 22:57:40,219 - werkzeug - INFO -  * Debugger PIN: 191-349-390
+2025-04-05 23:09:02,657 - __main__ - WARNING - Dataset not found at d:\Accenture Hackathon\backend\data\farming_advisor_dataset.csv
+2025-04-05 23:09:02,657 - __main__ - INFO - Creating sample dataset
+2025-04-05 23:09:02,812 - __main__ - INFO - Model trained successfully
+2025-04-05 23:09:03,035 - __main__ - ERROR - Error loading data: File is not a zip file
+2025-04-05 23:09:03,036 - __main__ - INFO - Creating sample farm data
+2025-04-05 23:09:03,037 - __main__ - INFO - Creating sample market data
+2025-04-05 23:09:03,042 - __main__ - INFO - Starting Flask server...
+2025-04-05 23:09:03,042 - __main__ - INFO - Dataset path: d:\Accenture Hackathon\backend\data\farming_advisor_dataset.csv
+2025-04-05 23:09:03,042 - __main__ - INFO - Weather API Key: cb669b0e7977e5085210c5309da7b642
+2025-04-05 23:09:03,042 - __main__ - INFO - Weather API URL: http://api.openweathermap.org/data/2.5/weather
+2025-04-05 23:09:03,135 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.11.153.38:5000
+2025-04-05 23:09:03,136 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-05 23:09:03,138 - werkzeug - INFO -  * Restarting with stat
+2025-04-05 23:09:05,796 - __main__ - WARNING - Dataset not found at d:\Accenture Hackathon\backend\data\farming_advisor_dataset.csv
+2025-04-05 23:09:05,797 - __main__ - INFO - Creating sample dataset
+2025-04-05 23:09:05,962 - __main__ - INFO - Model trained successfully
+2025-04-05 23:09:06,183 - __main__ - ERROR - Error loading data: File is not a zip file
+2025-04-05 23:09:06,183 - __main__ - INFO - Creating sample farm data
+2025-04-05 23:09:06,184 - __main__ - INFO - Creating sample market data
+2025-04-05 23:09:06,189 - __main__ - INFO - Starting Flask server...
+2025-04-05 23:09:06,190 - __main__ - INFO - Dataset path: d:\Accenture Hackathon\backend\data\farming_advisor_dataset.csv
+2025-04-05 23:09:06,190 - __main__ - INFO - Weather API Key: cb669b0e7977e5085210c5309da7b642
+2025-04-05 23:09:06,191 - __main__ - INFO - Weather API URL: http://api.openweathermap.org/data/2.5/weather
+2025-04-05 23:09:06,269 - werkzeug - WARNING -  * Debugger is active!
+2025-04-05 23:09:06,272 - werkzeug - INFO -  * Debugger PIN: 191-349-390
+2025-04-05 23:09:45,879 - werkzeug - INFO - 10.11.153.38 - - [05/Apr/2025 23:09:45] "[33mGET / HTTP/1.1[0m" 404 -
+2025-04-05 23:09:59,894 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 23:09:59] "[33mGET / HTTP/1.1[0m" 404 -
+2025-04-05 23:10:00,330 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 23:10:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-06 01:45:01,040 - __main__ - WARNING - Dataset not found at d:\Accenture Hackathon\backend\data\farming_advisor_dataset.csv
+2025-04-06 01:45:01,040 - __main__ - INFO - Creating sample dataset
+2025-04-06 01:45:01,201 - __main__ - INFO - Model trained successfully
+2025-04-06 01:45:01,498 - __main__ - ERROR - Error loading data: File is not a zip file
+2025-04-06 01:45:01,498 - __main__ - INFO - Creating sample farm data
+2025-04-06 01:45:01,499 - __main__ - INFO - Creating sample market data
+2025-04-06 01:45:01,505 - __main__ - INFO - Starting Flask server...
+2025-04-06 01:45:01,505 - __main__ - INFO - Dataset path: d:\Accenture Hackathon\backend\data\farming_advisor_dataset.csv
+2025-04-06 01:45:01,505 - __main__ - INFO - Weather API Key: cb669b0e7977e5085210c5309da7b642
+2025-04-06 01:45:01,506 - __main__ - INFO - Weather API URL: http://api.openweathermap.org/data/2.5/weather
+2025-04-06 01:45:01,624 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.11.153.38:5000
+2025-04-06 01:45:01,624 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-06 01:45:01,628 - werkzeug - INFO -  * Restarting with stat
+2025-04-06 01:45:04,298 - __main__ - WARNING - Dataset not found at d:\Accenture Hackathon\backend\data\farming_advisor_dataset.csv
+2025-04-06 01:45:04,298 - __main__ - INFO - Creating sample dataset
+2025-04-06 01:45:04,476 - __main__ - INFO - Model trained successfully
+2025-04-06 01:45:04,701 - __main__ - ERROR - Error loading data: File is not a zip file
+2025-04-06 01:45:04,702 - __main__ - INFO - Creating sample farm data
+2025-04-06 01:45:04,703 - __main__ - INFO - Creating sample market data
+2025-04-06 01:45:04,708 - __main__ - INFO - Starting Flask server...
+2025-04-06 01:45:04,708 - __main__ - INFO - Dataset path: d:\Accenture Hackathon\backend\data\farming_advisor_dataset.csv
+2025-04-06 01:45:04,709 - __main__ - INFO - Weather API Key: cb669b0e7977e5085210c5309da7b642
+2025-04-06 01:45:04,709 - __main__ - INFO - Weather API URL: http://api.openweathermap.org/data/2.5/weather
+2025-04-06 01:45:04,776 - werkzeug - WARNING -  * Debugger is active!
+2025-04-06 01:45:04,781 - werkzeug - INFO -  * Debugger PIN: 191-349-390
+2025-04-06 01:45:23,885 - werkzeug - INFO -  * Detected change in 'd:\\Accenture Hackathon\\backend\\server.py', reloading
+2025-04-06 01:45:24,172 - werkzeug - INFO -  * Restarting with stat
+2025-04-06 01:45:27,043 - __main__ - WARNING - Dataset not found at d:\Accenture Hackathon\backend\data\farming_advisor_dataset.csv
+2025-04-06 01:45:27,044 - __main__ - INFO - Creating sample dataset
+2025-04-06 01:45:27,269 - __main__ - INFO - Model trained successfully
+2025-04-06 01:45:27,540 - __main__ - ERROR - Error loading data: File is not a zip file
+2025-04-06 01:45:27,540 - __main__ - INFO - Creating sample farm data
+2025-04-06 01:45:27,542 - __main__ - INFO - Creating sample market data
+2025-04-06 01:45:27,550 - __main__ - INFO - Starting Flask server...
+2025-04-06 01:45:27,550 - __main__ - INFO - Dataset path: d:\Accenture Hackathon\backend\data\farming_advisor_dataset.csv
+2025-04-06 01:45:27,550 - __main__ - INFO - Weather API Key: cb669b0e7977e5085210c5309da7b642
+2025-04-06 01:45:27,550 - __main__ - INFO - Weather API URL: http://api.openweathermap.org/data/2.5/weather
+2025-04-06 01:45:27,638 - werkzeug - WARNING -  * Debugger is active!
+2025-04-06 01:45:27,642 - werkzeug - INFO -  * Debugger PIN: 191-349-390
+2025-04-06 01:45:29,163 - werkzeug - INFO -  * Detected change in 'd:\\Accenture Hackathon\\backend\\server.py', reloading
+2025-04-06 01:45:29,561 - werkzeug - INFO -  * Restarting with stat
+2025-04-06 01:45:32,314 - __main__ - WARNING - Dataset not found at d:\Accenture Hackathon\backend\data\farming_advisor_dataset.csv
+2025-04-06 01:45:32,314 - __main__ - INFO - Creating sample dataset
+2025-04-06 01:45:32,490 - __main__ - INFO - Model trained successfully
+2025-04-06 01:45:32,731 - __main__ - ERROR - Error loading data: File is not a zip file
+2025-04-06 01:45:32,731 - __main__ - INFO - Creating sample farm data
+2025-04-06 01:45:32,733 - __main__ - INFO - Creating sample market data
+2025-04-06 01:45:32,737 - __main__ - INFO - Starting Flask server...
+2025-04-06 01:45:32,738 - __main__ - INFO - Dataset path: d:\Accenture Hackathon\backend\data\farming_advisor_dataset.csv
+2025-04-06 01:45:32,738 - __main__ - INFO - Weather API Key: cb669b0e7977e5085210c5309da7b642
+2025-04-06 01:45:32,738 - __main__ - INFO - Weather API URL: http://api.openweathermap.org/data/2.5/weather
+2025-04-06 01:45:32,802 - werkzeug - WARNING -  * Debugger is active!
+2025-04-06 01:45:32,807 - werkzeug - INFO -  * Debugger PIN: 191-349-390
+2025-04-06 01:46:59,225 - werkzeug - INFO - 10.11.153.38 - - [06/Apr/2025 01:46:59] "[33mGET / HTTP/1.1[0m" 404 -
+2025-04-06 01:46:59,770 - werkzeug - INFO - 10.11.153.38 - - [06/Apr/2025 01:46:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-06 01:47:05,342 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 01:47:05] "[33mGET / HTTP/1.1[0m" 404 -
+2025-04-06 01:47:05,853 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 01:47:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-06 01:48:43,114 - werkzeug - INFO -  * Detected change in 'd:\\Accenture Hackathon\\backend\\server.py', reloading
+2025-04-06 01:48:43,405 - werkzeug - INFO -  * Restarting with stat
+2025-04-06 01:48:46,209 - __main__ - WARNING - Dataset not found at d:\Accenture Hackathon\backend\data\farming_advisor_dataset.csv
+2025-04-06 01:48:46,210 - __main__ - INFO - Creating sample dataset
+2025-04-06 01:48:46,372 - __main__ - INFO - Model trained successfully
+2025-04-06 01:48:46,644 - __main__ - ERROR - Error loading data: File is not a zip file
+2025-04-06 01:48:46,644 - __main__ - INFO - Creating sample farm data
+2025-04-06 01:48:46,646 - __main__ - INFO - Creating sample market data
+2025-04-06 01:48:46,652 - __main__ - INFO - Structure verification passed!
+2025-04-06 01:48:46,652 - __main__ - INFO - Starting Flask server...
+2025-04-06 01:48:46,652 - __main__ - INFO - Dataset path: d:\Accenture Hackathon\backend\data\farming_advisor_dataset.csv
+2025-04-06 01:48:46,653 - __main__ - INFO - Weather API Key: cb669b0e7977e5085210c5309da7b642
+2025-04-06 01:48:46,653 - __main__ - INFO - Weather API URL: http://api.openweathermap.org/data/2.5/weather
+2025-04-06 01:48:46,724 - werkzeug - WARNING -  * Debugger is active!
+2025-04-06 01:48:46,727 - werkzeug - INFO -  * Debugger PIN: 191-349-390
+2025-04-06 01:49:02,652 - werkzeug - INFO -  * Detected change in 'd:\\Accenture Hackathon\\backend\\server.py', reloading
+2025-04-06 01:49:02,944 - werkzeug - INFO -  * Restarting with stat
+2025-04-06 01:49:05,682 - __main__ - WARNING - Dataset not found at d:\Accenture Hackathon\backend\data\farming_advisor_dataset.csv
+2025-04-06 01:49:05,682 - __main__ - INFO - Creating sample dataset
+2025-04-06 01:49:05,846 - __main__ - INFO - Model trained successfully
+2025-04-06 01:49:06,060 - __main__ - ERROR - Error loading data: File is not a zip file
+2025-04-06 01:49:06,061 - __main__ - INFO - Creating sample farm data
+2025-04-06 01:49:06,062 - __main__ - INFO - Creating sample market data
+2025-04-06 01:49:06,069 - __main__ - INFO - Structure verification passed!
+2025-04-06 01:49:06,069 - __main__ - INFO - Starting Flask server...
+2025-04-06 01:49:06,069 - __main__ - INFO - Dataset path: d:\Accenture Hackathon\backend\data\farming_advisor_dataset.csv
+2025-04-06 01:49:06,069 - __main__ - INFO - Weather API Key: cb669b0e7977e5085210c5309da7b642
+2025-04-06 01:49:06,069 - __main__ - INFO - Weather API URL: http://api.openweathermap.org/data/2.5/weather
+2025-04-06 01:49:06,132 - werkzeug - WARNING -  * Debugger is active!
+2025-04-06 01:49:06,136 - werkzeug - INFO -  * Debugger PIN: 191-349-390
+2025-04-06 01:49:41,996 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 01:49:41] "[33mGET / HTTP/1.1[0m" 404 -
+2025-04-06 01:49:42,489 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 01:49:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-06 01:51:19,557 - werkzeug - INFO -  * Detected change in 'd:\\Accenture Hackathon\\backend\\server.py', reloading
+2025-04-06 01:51:19,855 - werkzeug - INFO -  * Restarting with stat
+2025-04-06 01:51:22,757 - __main__ - WARNING - Dataset not found at d:\Accenture Hackathon\backend\data\farming_advisor_dataset.csv
+2025-04-06 01:51:22,758 - __main__ - INFO - Creating sample dataset
+2025-04-06 01:51:22,913 - __main__ - INFO - Model trained successfully
+2025-04-06 01:51:23,139 - __main__ - ERROR - Error loading data: File is not a zip file
+2025-04-06 01:51:23,139 - __main__ - INFO - Creating sample farm data
+2025-04-06 01:51:23,140 - __main__ - INFO - Creating sample market data
+2025-04-06 01:51:23,147 - __main__ - INFO - Structure verification passed!
+2025-04-06 01:51:23,147 - __main__ - INFO - Starting Flask server...
+2025-04-06 01:51:23,147 - __main__ - INFO - Dataset path: d:\Accenture Hackathon\backend\data\farming_advisor_dataset.csv
+2025-04-06 01:51:23,148 - __main__ - INFO - Weather API Key: cb669b0e7977e5085210c5309da7b642
+2025-04-06 01:51:23,148 - __main__ - INFO - Weather API URL: http://api.openweathermap.org/data/2.5/weather
+2025-04-06 01:51:23,224 - werkzeug - WARNING -  * Debugger is active!
+2025-04-06 01:51:23,228 - werkzeug - INFO -  * Debugger PIN: 191-349-390
+2025-04-06 01:51:35,413 - werkzeug - INFO -  * Detected change in 'd:\\Accenture Hackathon\\backend\\server.py', reloading
+2025-04-06 01:51:35,674 - werkzeug - INFO -  * Restarting with stat
+2025-04-06 01:51:38,252 - __main__ - WARNING - Dataset not found at d:\Accenture Hackathon\backend\data\farming_advisor_dataset.csv
+2025-04-06 01:51:38,252 - __main__ - INFO - Creating sample dataset
+2025-04-06 01:51:38,409 - __main__ - INFO - Model trained successfully
+2025-04-06 01:51:38,622 - __main__ - ERROR - Error loading data: File is not a zip file
+2025-04-06 01:51:38,623 - __main__ - INFO - Creating sample farm data
+2025-04-06 01:51:38,624 - __main__ - INFO - Creating sample market data
+2025-04-06 01:51:38,631 - __main__ - INFO - Structure verification passed!
+2025-04-06 01:51:38,632 - __main__ - INFO - Starting Flask server...
+2025-04-06 01:51:38,632 - __main__ - INFO - Dataset path: d:\Accenture Hackathon\backend\data\farming_advisor_dataset.csv
+2025-04-06 01:51:38,632 - __main__ - INFO - Weather API Key: cb669b0e7977e5085210c5309da7b642
+2025-04-06 01:51:38,633 - __main__ - INFO - Weather API URL: http://api.openweathermap.org/data/2.5/weather
+2025-04-06 01:51:38,712 - werkzeug - WARNING -  * Debugger is active!
+2025-04-06 01:51:38,717 - werkzeug - INFO -  * Debugger PIN: 191-349-390
+2025-04-06 01:51:40,266 - werkzeug - INFO -  * Detected change in 'd:\\Accenture Hackathon\\backend\\server.py', reloading
+2025-04-06 01:51:40,525 - werkzeug - INFO -  * Restarting with stat
+2025-04-06 01:51:43,436 - __main__ - WARNING - Dataset not found at d:\Accenture Hackathon\backend\data\farming_advisor_dataset.csv
+2025-04-06 01:51:43,437 - __main__ - INFO - Creating sample dataset
+2025-04-06 01:51:43,604 - __main__ - INFO - Model trained successfully
+2025-04-06 01:51:43,819 - __main__ - ERROR - Error loading data: File is not a zip file
+2025-04-06 01:51:43,819 - __main__ - INFO - Creating sample farm data
+2025-04-06 01:51:43,821 - __main__ - INFO - Creating sample market data
+2025-04-06 01:51:43,828 - __main__ - INFO - Structure verification passed!
+2025-04-06 01:51:43,828 - __main__ - INFO - Starting Flask server...
+2025-04-06 01:51:43,828 - __main__ - INFO - Dataset path: d:\Accenture Hackathon\backend\data\farming_advisor_dataset.csv
+2025-04-06 01:51:43,828 - __main__ - INFO - Weather API Key: cb669b0e7977e5085210c5309da7b642
+2025-04-06 01:51:43,829 - __main__ - INFO - Weather API URL: http://api.openweathermap.org/data/2.5/weather
+2025-04-06 01:51:43,896 - werkzeug - WARNING -  * Debugger is active!
+2025-04-06 01:51:43,901 - werkzeug - INFO -  * Debugger PIN: 191-349-390
+2025-04-06 01:53:30,716 - __main__ - WARNING - Dataset not found at d:\Accenture Hackathon\backend\data\farming_advisor_dataset.csv
+2025-04-06 01:53:30,716 - __main__ - INFO - Creating sample dataset
+2025-04-06 01:53:30,874 - __main__ - INFO - Model trained successfully
+2025-04-06 01:53:31,122 - __main__ - ERROR - Error loading data: File is not a zip file
+2025-04-06 01:53:31,122 - __main__ - INFO - Creating sample farm data
+2025-04-06 01:53:31,123 - __main__ - INFO - Creating sample market data
+2025-04-06 01:53:31,131 - __main__ - INFO - Structure verification passed!
+2025-04-06 01:53:31,131 - __main__ - INFO - Starting Flask server...
+2025-04-06 01:53:31,131 - __main__ - INFO - Dataset path: d:\Accenture Hackathon\backend\data\farming_advisor_dataset.csv
+2025-04-06 01:53:31,131 - __main__ - INFO - Weather API Key: cb669b0e7977e5085210c5309da7b642
+2025-04-06 01:53:31,131 - __main__ - INFO - Weather API URL: http://api.openweathermap.org/data/2.5/weather
+2025-04-06 01:53:31,229 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.11.153.38:5000
+2025-04-06 01:53:31,229 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-06 01:53:31,232 - werkzeug - INFO -  * Restarting with stat
+2025-04-06 01:53:33,923 - __main__ - WARNING - Dataset not found at d:\Accenture Hackathon\backend\data\farming_advisor_dataset.csv
+2025-04-06 01:53:33,924 - __main__ - INFO - Creating sample dataset
+2025-04-06 01:53:34,071 - __main__ - INFO - Model trained successfully
+2025-04-06 01:53:34,292 - __main__ - ERROR - Error loading data: File is not a zip file
+2025-04-06 01:53:34,292 - __main__ - INFO - Creating sample farm data
+2025-04-06 01:53:34,294 - __main__ - INFO - Creating sample market data
+2025-04-06 01:53:34,300 - __main__ - INFO - Structure verification passed!
+2025-04-06 01:53:34,300 - __main__ - INFO - Starting Flask server...
+2025-04-06 01:53:34,300 - __main__ - INFO - Dataset path: d:\Accenture Hackathon\backend\data\farming_advisor_dataset.csv
+2025-04-06 01:53:34,300 - __main__ - INFO - Weather API Key: cb669b0e7977e5085210c5309da7b642
+2025-04-06 01:53:34,301 - __main__ - INFO - Weather API URL: http://api.openweathermap.org/data/2.5/weather
+2025-04-06 01:53:34,371 - werkzeug - WARNING -  * Debugger is active!
+2025-04-06 01:53:34,374 - werkzeug - INFO -  * Debugger PIN: 191-349-390
+2025-04-06 01:55:11,325 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 01:55:11] "[33mGET / HTTP/1.1[0m" 404 -
+2025-04-06 01:55:11,790 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 01:55:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-06 01:58:47,765 - werkzeug - INFO -  * Detected change in 'd:\\Accenture Hackathon\\backend\\server.py', reloading
+2025-04-06 01:58:48,142 - werkzeug - INFO -  * Restarting with stat
+2025-04-06 01:58:51,020 - __main__ - WARNING - Dataset not found at d:\Accenture Hackathon\backend\data\farming_advisor_dataset.csv
+2025-04-06 01:58:51,021 - __main__ - INFO - Creating sample dataset
+2025-04-06 01:58:51,194 - __main__ - INFO - Model trained successfully
+2025-04-06 01:58:51,413 - __main__ - ERROR - Error loading data: File is not a zip file
+2025-04-06 01:58:51,413 - __main__ - INFO - Creating sample farm data
+2025-04-06 01:58:51,414 - __main__ - INFO - Creating sample market data
+2025-04-06 01:58:51,421 - __main__ - INFO - Structure verification passed!
+2025-04-06 01:58:51,422 - __main__ - INFO - Starting Flask server...
+2025-04-06 01:58:51,422 - __main__ - INFO - Dataset path: d:\Accenture Hackathon\backend\data\farming_advisor_dataset.csv
+2025-04-06 01:58:51,422 - __main__ - INFO - Weather API Key: cb669b0e7977e5085210c5309da7b642
+2025-04-06 01:58:51,423 - __main__ - INFO - Weather API URL: http://api.openweathermap.org/data/2.5/weather
+2025-04-06 01:58:51,495 - werkzeug - WARNING -  * Debugger is active!
+2025-04-06 01:58:51,499 - werkzeug - INFO -  * Debugger PIN: 191-349-390
+2025-04-06 09:30:58,028 - __main__ - WARNING - Dataset not found at d:\Accenture Hackathon\backend\data\farming_advisor_dataset.csv
+2025-04-06 09:30:58,029 - __main__ - INFO - Creating sample dataset
+2025-04-06 09:30:58,199 - __main__ - INFO - Model trained successfully
+2025-04-06 09:30:58,545 - __main__ - ERROR - Error loading data: File is not a zip file
+2025-04-06 09:30:58,545 - __main__ - INFO - Creating sample farm data
+2025-04-06 09:30:58,546 - __main__ - INFO - Creating sample market data
+2025-04-06 09:30:58,553 - __main__ - INFO - Structure verification passed!
+2025-04-06 09:30:58,553 - __main__ - INFO - Starting Flask server...
+2025-04-06 09:30:58,554 - __main__ - INFO - Dataset path: d:\Accenture Hackathon\backend\data\farming_advisor_dataset.csv
+2025-04-06 09:30:58,555 - __main__ - INFO - Weather API Key: cb669b0e7977e5085210c5309da7b642
+2025-04-06 09:30:58,555 - __main__ - INFO - Weather API URL: http://api.openweathermap.org/data/2.5/weather
+2025-04-06 09:30:58,664 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.11.153.217:5000
+2025-04-06 09:30:58,665 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-06 09:30:58,667 - werkzeug - INFO -  * Restarting with stat
+2025-04-06 09:31:01,485 - __main__ - WARNING - Dataset not found at d:\Accenture Hackathon\backend\data\farming_advisor_dataset.csv
+2025-04-06 09:31:01,486 - __main__ - INFO - Creating sample dataset
+2025-04-06 09:31:01,656 - __main__ - INFO - Model trained successfully
+2025-04-06 09:31:01,893 - __main__ - ERROR - Error loading data: File is not a zip file
+2025-04-06 09:31:01,894 - __main__ - INFO - Creating sample farm data
+2025-04-06 09:31:01,895 - __main__ - INFO - Creating sample market data
+2025-04-06 09:31:01,903 - __main__ - INFO - Structure verification passed!
+2025-04-06 09:31:01,903 - __main__ - INFO - Starting Flask server...
+2025-04-06 09:31:01,903 - __main__ - INFO - Dataset path: d:\Accenture Hackathon\backend\data\farming_advisor_dataset.csv
+2025-04-06 09:31:01,904 - __main__ - INFO - Weather API Key: cb669b0e7977e5085210c5309da7b642
+2025-04-06 09:31:01,904 - __main__ - INFO - Weather API URL: http://api.openweathermap.org/data/2.5/weather
+2025-04-06 09:31:01,983 - werkzeug - WARNING -  * Debugger is active!
+2025-04-06 09:31:01,990 - werkzeug - INFO -  * Debugger PIN: 191-349-390
+2025-04-06 10:01:46,683 - werkzeug - WARNING -  * Debugger is active!
+2025-04-06 10:01:46,684 - werkzeug - INFO -  * Debugger PIN: 191-349-390
+2025-04-06 10:01:47,230 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-06 10:01:47,230 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-06 10:01:47,231 - werkzeug - INFO -  * Restarting with stat
+2025-04-06 10:01:50,017 - __main__ - WARNING - Dataset not found at d:\Accenture Hackathon\backend\data\farming_advisor_dataset.csv
+2025-04-06 10:01:50,017 - __main__ - INFO - Creating sample dataset
+2025-04-06 10:01:50,161 - __main__ - INFO - Model trained successfully
+2025-04-06 10:01:50,461 - __main__ - ERROR - Error loading data: File is not a zip file
+2025-04-06 10:01:50,461 - __main__ - INFO - Creating sample farm data
+2025-04-06 10:01:50,463 - __main__ - INFO - Creating sample market data
+2025-04-06 10:01:50,469 - __main__ - INFO - Structure verification passed!
+2025-04-06 10:01:50,469 - __main__ - INFO - Starting Flask server...
+2025-04-06 10:01:50,470 - __main__ - INFO - Dataset path: d:\Accenture Hackathon\backend\data\farming_advisor_dataset.csv
+2025-04-06 10:01:50,470 - __main__ - INFO - Weather API Key: cb669b0e7977e5085210c5309da7b642
+2025-04-06 10:01:50,470 - __main__ - INFO - Weather API URL: http://api.openweathermap.org/data/2.5/weather
+2025-04-06 10:01:50,541 - werkzeug - WARNING -  * Debugger is active!
+2025-04-06 10:01:50,545 - werkzeug - INFO -  * Debugger PIN: 191-349-390
+2025-04-06 10:43:52,188 - __main__ - WARNING - Dataset not found at d:\Accenture Hackathon\backend\data\farming_advisor_dataset.csv
+2025-04-06 10:43:52,188 - __main__ - INFO - Creating sample dataset
+2025-04-06 10:43:52,337 - __main__ - INFO - Model trained successfully
+2025-04-06 10:43:52,578 - __main__ - ERROR - Error loading data: File is not a zip file
+2025-04-06 10:43:52,579 - __main__ - INFO - Creating sample farm data
+2025-04-06 10:43:52,581 - __main__ - INFO - Creating sample market data
+2025-04-06 10:43:52,590 - __main__ - INFO - Structure verification passed!
+2025-04-06 10:43:52,591 - __main__ - INFO - Starting Flask server...
+2025-04-06 10:43:52,591 - __main__ - INFO - Dataset path: d:\Accenture Hackathon\backend\data\farming_advisor_dataset.csv
+2025-04-06 10:43:52,591 - __main__ - INFO - Weather API Key: cb669b0e7977e5085210c5309da7b642
+2025-04-06 10:43:52,592 - __main__ - INFO - Weather API URL: http://api.openweathermap.org/data/2.5/weather
+2025-04-06 10:43:52,687 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.11.153.217:5000
+2025-04-06 10:43:52,687 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-06 10:43:52,689 - werkzeug - INFO -  * Restarting with stat
+2025-04-06 10:43:55,522 - __main__ - WARNING - Dataset not found at d:\Accenture Hackathon\backend\data\farming_advisor_dataset.csv
+2025-04-06 10:43:55,523 - __main__ - INFO - Creating sample dataset
+2025-04-06 10:43:55,704 - __main__ - INFO - Model trained successfully
+2025-04-06 10:43:55,943 - __main__ - ERROR - Error loading data: File is not a zip file
+2025-04-06 10:43:55,944 - __main__ - INFO - Creating sample farm data
+2025-04-06 10:43:55,945 - __main__ - INFO - Creating sample market data
+2025-04-06 10:43:55,952 - __main__ - INFO - Structure verification passed!
+2025-04-06 10:43:55,952 - __main__ - INFO - Starting Flask server...
+2025-04-06 10:43:55,952 - __main__ - INFO - Dataset path: d:\Accenture Hackathon\backend\data\farming_advisor_dataset.csv
+2025-04-06 10:43:55,952 - __main__ - INFO - Weather API Key: cb669b0e7977e5085210c5309da7b642
+2025-04-06 10:43:55,952 - __main__ - INFO - Weather API URL: http://api.openweathermap.org/data/2.5/weather
+2025-04-06 10:43:56,039 - werkzeug - WARNING -  * Debugger is active!
+2025-04-06 10:43:56,043 - werkzeug - INFO -  * Debugger PIN: 191-349-390
+2025-04-06 10:44:04,519 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 10:44:04] "[33mGET / HTTP/1.1[0m" 404 -
+2025-04-06 10:44:04,917 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 10:44:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-06 10:56:45,258 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 10:56:45] "[33mGET /api/data/farmer HTTP/1.1[0m" 404 -
+2025-04-06 10:56:45,503 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 10:56:45] "[33mGET /api/data/market HTTP/1.1[0m" 404 -
+2025-04-06 11:32:26,935 - __main__ - WARNING - Dataset not found at d:\Accenture Hackathon\backend\data\farming_advisor_dataset.csv
+2025-04-06 11:32:26,936 - __main__ - INFO - Creating sample dataset
+2025-04-06 11:32:27,202 - __main__ - INFO - Model trained successfully
+2025-04-06 11:32:27,514 - __main__ - ERROR - Error loading data: File is not a zip file
+2025-04-06 11:32:27,514 - __main__ - INFO - Creating sample farm data
+2025-04-06 11:32:27,515 - __main__ - INFO - Creating sample market data
+2025-04-06 11:32:27,521 - __main__ - INFO - Structure verification passed!
+2025-04-06 11:32:27,522 - __main__ - INFO - Starting Flask server...
+2025-04-06 11:32:27,522 - __main__ - INFO - Dataset path: d:\Accenture Hackathon\backend\data\farming_advisor_dataset.csv
+2025-04-06 11:32:27,522 - __main__ - INFO - Weather API Key: cb669b0e7977e5085210c5309da7b642
+2025-04-06 11:32:27,523 - __main__ - INFO - Weather API URL: http://api.openweathermap.org/data/2.5/weather
+2025-04-06 11:32:27,625 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.11.153.217:5000
+2025-04-06 11:32:27,626 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-06 11:32:27,629 - werkzeug - INFO -  * Restarting with stat
+2025-04-06 11:32:30,362 - __main__ - WARNING - Dataset not found at d:\Accenture Hackathon\backend\data\farming_advisor_dataset.csv
+2025-04-06 11:32:30,362 - __main__ - INFO - Creating sample dataset
+2025-04-06 11:32:30,522 - __main__ - INFO - Model trained successfully
+2025-04-06 11:32:30,757 - __main__ - ERROR - Error loading data: File is not a zip file
+2025-04-06 11:32:30,757 - __main__ - INFO - Creating sample farm data
+2025-04-06 11:32:30,759 - __main__ - INFO - Creating sample market data
+2025-04-06 11:32:30,765 - __main__ - INFO - Structure verification passed!
+2025-04-06 11:32:30,765 - __main__ - INFO - Starting Flask server...
+2025-04-06 11:32:30,765 - __main__ - INFO - Dataset path: d:\Accenture Hackathon\backend\data\farming_advisor_dataset.csv
+2025-04-06 11:32:30,766 - __main__ - INFO - Weather API Key: cb669b0e7977e5085210c5309da7b642
+2025-04-06 11:32:30,766 - __main__ - INFO - Weather API URL: http://api.openweathermap.org/data/2.5/weather
+2025-04-06 11:32:30,838 - werkzeug - WARNING -  * Debugger is active!
+2025-04-06 11:32:30,841 - werkzeug - INFO -  * Debugger PIN: 191-349-390
+2025-04-06 11:32:44,697 - werkzeug - INFO - 10.11.153.217 - - [06/Apr/2025 11:32:44] "[33mGET / HTTP/1.1[0m" 404 -
+2025-04-06 11:32:45,098 - werkzeug - INFO - 10.11.153.217 - - [06/Apr/2025 11:32:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-06 11:34:04,958 - werkzeug - INFO -  * Detected change in 'd:\\Accenture Hackathon\\backend\\server.py', reloading
+2025-04-06 11:34:05,526 - werkzeug - INFO -  * Restarting with stat
+2025-04-06 11:34:08,584 - __main__ - WARNING - Dataset not found at d:\Accenture Hackathon\backend\data\farming_advisor_dataset.csv
+2025-04-06 11:34:08,585 - __main__ - INFO - Creating sample dataset
+2025-04-06 11:34:08,755 - __main__ - INFO - Model trained successfully
+2025-04-06 11:34:09,056 - __main__ - ERROR - Error loading data: File is not a zip file
+2025-04-06 11:34:09,056 - __main__ - INFO - Creating sample farm data
+2025-04-06 11:34:09,058 - __main__ - INFO - Creating sample market data
+2025-04-06 11:34:09,066 - __main__ - INFO - Structure verification passed!
+2025-04-06 11:34:09,067 - __main__ - INFO - Starting Flask server...
+2025-04-06 11:34:09,067 - __main__ - INFO - Dataset path: d:\Accenture Hackathon\backend\data\farming_advisor_dataset.csv
+2025-04-06 11:34:09,068 - __main__ - INFO - Weather API Key: cb669b0e7977e5085210c5309da7b642
+2025-04-06 11:34:09,068 - __main__ - INFO - Weather API URL: http://api.openweathermap.org/data/2.5/weather
+2025-04-06 11:34:09,158 - werkzeug - WARNING -  * Debugger is active!
+2025-04-06 11:34:09,164 - werkzeug - INFO -  * Debugger PIN: 191-349-390
+2025-04-06 11:34:11,817 - werkzeug - INFO -  * Detected change in 'd:\\Accenture Hackathon\\backend\\server.py', reloading
+2025-04-06 11:34:12,092 - werkzeug - INFO -  * Restarting with stat
+2025-04-06 11:34:15,241 - __main__ - WARNING - Dataset not found at d:\Accenture Hackathon\backend\data\farming_advisor_dataset.csv
+2025-04-06 11:34:15,241 - __main__ - INFO - Creating sample dataset
+2025-04-06 11:34:15,409 - __main__ - INFO - Model trained successfully
+2025-04-06 11:34:15,633 - __main__ - ERROR - Error loading data: File is not a zip file
+2025-04-06 11:34:15,633 - __main__ - INFO - Creating sample farm data
+2025-04-06 11:34:15,634 - __main__ - INFO - Creating sample market data
+2025-04-06 11:34:15,640 - __main__ - ERROR - Structure verification failed:
+2025-04-06 11:34:15,641 - __main__ - ERROR -   - Missing file: D:\Accenture Hackathon\frontend\js\dashboard.jsconfig.js
+2025-04-06 11:34:15,713 - werkzeug - WARNING -  * Debugger is active!
+2025-04-06 11:34:15,717 - werkzeug - INFO -  * Debugger PIN: 191-349-390
+2025-04-06 11:34:36,061 - werkzeug - INFO -  * Detected change in 'd:\\Accenture Hackathon\\backend\\server.py', reloading
+2025-04-06 11:34:36,391 - werkzeug - INFO -  * Restarting with stat
+2025-04-06 11:34:39,102 - __main__ - WARNING - Dataset not found at d:\Accenture Hackathon\backend\data\farming_advisor_dataset.csv
+2025-04-06 11:34:39,103 - __main__ - INFO - Creating sample dataset
+2025-04-06 11:34:39,287 - __main__ - INFO - Model trained successfully
+2025-04-06 11:34:39,554 - __main__ - ERROR - Error loading data: File is not a zip file
+2025-04-06 11:34:39,555 - __main__ - INFO - Creating sample farm data
+2025-04-06 11:34:39,556 - __main__ - INFO - Creating sample market data
+2025-04-06 11:34:39,562 - __main__ - INFO - Structure verification passed!
+2025-04-06 11:34:39,563 - __main__ - INFO - Starting Flask server...
+2025-04-06 11:34:39,563 - __main__ - INFO - Dataset path: d:\Accenture Hackathon\backend\data\farming_advisor_dataset.csv
+2025-04-06 11:34:39,564 - __main__ - INFO - Weather API Key: cb669b0e7977e5085210c5309da7b642
+2025-04-06 11:34:39,564 - __main__ - INFO - Weather API URL: http://api.openweathermap.org/data/2.5/weather
+2025-04-06 11:34:39,634 - werkzeug - WARNING -  * Debugger is active!
+2025-04-06 11:34:39,638 - werkzeug - INFO -  * Debugger PIN: 191-349-390
+2025-04-06 11:46:40,355 - werkzeug - INFO -  * Detected change in 'd:\\Accenture Hackathon\\backend\\server.py', reloading
+2025-04-06 11:46:40,612 - werkzeug - INFO -  * Restarting with stat
+2025-04-06 11:46:43,643 - __main__ - WARNING - Dataset not found at d:\Accenture Hackathon\backend\data\farming_advisor_dataset.csv
+2025-04-06 11:46:43,644 - __main__ - INFO - Creating sample dataset
+2025-04-06 11:46:43,870 - __main__ - INFO - Model trained successfully
+2025-04-06 11:46:44,136 - __main__ - ERROR - Error loading data: File is not a zip file
+2025-04-06 11:46:44,136 - __main__ - INFO - Creating sample farm data
+2025-04-06 11:46:44,138 - __main__ - INFO - Creating sample market data
+2025-04-06 11:46:44,147 - __main__ - INFO - Structure verification passed!
+2025-04-06 11:46:44,147 - __main__ - INFO - Starting Flask server...
+2025-04-06 11:46:44,147 - __main__ - INFO - Dataset path: d:\Accenture Hackathon\backend\data\farming_advisor_dataset.csv
+2025-04-06 11:46:44,148 - __main__ - INFO - Weather API Key: cb669b0e7977e5085210c5309da7b642
+2025-04-06 11:46:44,148 - __main__ - INFO - Weather API URL: http://api.openweathermap.org/data/2.5/weather
+2025-04-06 11:46:44,227 - werkzeug - WARNING -  * Debugger is active!
+2025-04-06 11:46:44,231 - werkzeug - INFO -  * Debugger PIN: 191-349-390
+2025-04-06 11:48:47,837 - __main__ - WARNING - Dataset not found at d:\Accenture Hackathon\backend\data\farming_advisor_dataset.csv
+2025-04-06 11:48:47,837 - __main__ - INFO - Creating sample dataset
+2025-04-06 11:48:48,015 - __main__ - INFO - Model trained successfully
+2025-04-06 11:48:48,282 - __main__ - ERROR - Error loading data: File is not a zip file
+2025-04-06 11:48:48,282 - __main__ - INFO - Creating sample farm data
+2025-04-06 11:48:48,283 - __main__ - INFO - Creating sample market data
+2025-04-06 11:48:48,290 - __main__ - INFO - Structure verification passed!
+2025-04-06 11:48:48,291 - __main__ - INFO - Starting Flask server...
+2025-04-06 11:48:48,291 - __main__ - INFO - Dataset path: d:\Accenture Hackathon\backend\data\farming_advisor_dataset.csv
+2025-04-06 11:48:48,291 - __main__ - INFO - Weather API Key: cb669b0e7977e5085210c5309da7b642
+2025-04-06 11:48:48,291 - __main__ - INFO - Weather API URL: http://api.openweathermap.org/data/2.5/weather
+2025-04-06 11:48:48,383 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.11.153.217:5000
+2025-04-06 11:48:48,383 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-06 11:48:48,385 - werkzeug - INFO -  * Restarting with stat
+2025-04-06 11:48:51,322 - __main__ - WARNING - Dataset not found at d:\Accenture Hackathon\backend\data\farming_advisor_dataset.csv
+2025-04-06 11:48:51,322 - __main__ - INFO - Creating sample dataset
+2025-04-06 11:48:51,483 - __main__ - INFO - Model trained successfully
+2025-04-06 11:48:51,734 - __main__ - ERROR - Error loading data: File is not a zip file
+2025-04-06 11:48:51,734 - __main__ - INFO - Creating sample farm data
+2025-04-06 11:48:51,735 - __main__ - INFO - Creating sample market data
+2025-04-06 11:48:51,741 - __main__ - INFO - Structure verification passed!
+2025-04-06 11:48:51,742 - __main__ - INFO - Starting Flask server...
+2025-04-06 11:48:51,742 - __main__ - INFO - Dataset path: d:\Accenture Hackathon\backend\data\farming_advisor_dataset.csv
+2025-04-06 11:48:51,742 - __main__ - INFO - Weather API Key: cb669b0e7977e5085210c5309da7b642
+2025-04-06 11:48:51,742 - __main__ - INFO - Weather API URL: http://api.openweathermap.org/data/2.5/weather
+2025-04-06 11:48:51,811 - werkzeug - WARNING -  * Debugger is active!
+2025-04-06 11:48:51,815 - werkzeug - INFO -  * Debugger PIN: 191-349-390
