@@ -1,8 +1,9 @@
-🌾 SmartAgroAI: Multi-Agent System for Sustainable Agriculture'
-'**Accenture Hackathon Project – 2025**
-"SmartAgroAI is a full-stack AI-powered multi-agent system designed to optimize sustainable farming practices. "
-                  "It brings together farmers, market researchers, and weather stations using intelligent recommendations that reduce "
-                  "environmental impact—like water consumption, carbon footprint, and soil erosion."
+# SmartAgroAI: Multi-Agent System for Sustainable Agriculture
+# Accenture Hackathon Project – 2025
+
+# SmartAgroAI is a full-stack AI-powered multi-agent system designed to optimize sustainable farming practices. 
+                  It brings together farmers, market researchers, and weather stations using intelligent recommendations that reduce 
+                  environmental impact—like water consumption, carbon footprint, and soil erosion.
 
 # Project Structure
 .
